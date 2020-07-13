@@ -1,3 +1,81 @@
-body{
-    background-color: antiquewhite;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+body {
+    background-color: black;
+    font-family: Verdana;
+    margin: 0;
+}
+
+body h1 {
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    font-weight: 300;
+    letter-spacing: 5px;
+    padding: 15px;
+    margin: 0px;
+}
+
+.input {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    color: white;
+}
+
+form label {
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+form input {
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+#weightLabel {
+    margin-left: 30px;
+}
+
+.button {
+    margin: 0;
+    padding: 15px 30px;
+    border: none;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    /*from youtube to make neon light effect*/
+    background-color: black;
+    color: #95eb00;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+button:hover {
+    color: #4c7900;
+    background: #95eb00;
+    box-shadow: 0 0 10px #95eb00, 0 0 40px #95eb00, 0 0 80px #95eb00;
+    transition-delay: 100ms;
+}
+
+p {
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    font-weight: 10;
+    letter-spacing: 4px;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
