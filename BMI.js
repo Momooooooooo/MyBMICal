@@ -11,7 +11,7 @@ function calculation() {
     var inputHeight = parseFloat(height.value) || 0;
     var inputWeight = parseFloat(weight.value) || 0;
 
-    if(inputHeight==0 && inputWeight==0){
+    if (inputHeight == 0 && inputWeight == 0) {
         alert("Please input correct height and weight!");
         return;
 
@@ -19,6 +19,6 @@ function calculation() {
     var outputResult = inputWeight / (inputHeight * inputHeight);
 
     outputResult = outputResult.toFixed(3);
-    
+
     result.innerHTML = "Your BMI is: " + outputResult;
 }
